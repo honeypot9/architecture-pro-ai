@@ -1,0 +1,25 @@
+{
+  "update_timestamp": "2025-11-26T00:32:03.986498",
+  "model": {
+    "name": "BAAI/bge-m3",
+    "embedding_size": 1024
+  },
+  "knowledge_base": {
+    "source_path": "knowledge_base",
+    "total_documents": 71,
+    "changed_documents": 0,
+    "chunks_added": 1,
+    "total_chunks_in_index": 631
+  },
+  "processing": {
+    "execution_time_seconds": 7.16,
+    "execution_time_minutes": 0.12,
+    "chunks_per_second": 0.14
+  },
+  "vectorstore": {
+    "type": "FAISS",
+    "index_type": "IndexFlatIP",
+    "persist_directory": "./faiss_index"
+  },
+  "status": "success"
+}

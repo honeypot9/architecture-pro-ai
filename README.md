@@ -17,3 +17,7 @@
 # Task5
 
 [link](./Task5/README.md)
+
+# Task6
+
+[link](./Task6/README.md)

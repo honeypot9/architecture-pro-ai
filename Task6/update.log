@@ -1,0 +1,242 @@
+2025-11-26 00:31:24,222 - INFO - 🚀 Starting Knowledge Base Update Process
+2025-11-26 00:31:24,223 - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-11-26 00:31:30,015 - INFO - ✅ Loaded existing FAISS index and metadata
+2025-11-26 00:31:30,015 - INFO - 🔍 Scanning for documents...
+2025-11-26 00:31:30,016 - INFO -    ✓ Loaded: Khazad-dûm.txt
+2025-11-26 00:31:30,016 - INFO -    ✓ Loaded: Valley_Haven.txt
+2025-11-26 00:31:30,016 - INFO -    ✓ Loaded: Orin_Greybeard.txt
+2025-11-26 00:31:30,016 - INFO -    ✓ Loaded: Shepherds_of_the_Forest.txt
+2025-11-26 00:31:30,017 - INFO -    ✓ Loaded: Bilbo_Underhill.txt
+2025-11-26 00:31:30,017 - INFO -    ✓ Loaded: Slink.txt
+2025-11-26 00:31:30,017 - INFO -    ✓ Loaded: Merry_Brockhouse.txt
+2025-11-26 00:31:30,018 - INFO -    ✓ Loaded: Palantíri.txt
+2025-11-26 00:31:30,018 - INFO -    ✓ Loaded: Eldar.txt
+2025-11-26 00:31:30,018 - INFO -    ✓ Loaded: Benedict_Hilltop.txt
+2025-11-26 00:31:30,018 - INFO -    ✓ Loaded: Halflings.txt
+2025-11-26 00:31:30,019 - INFO -    ✓ Loaded: Uruk-hai.txt
+2025-11-26 00:31:30,019 - INFO -    ✓ Loaded: Kaelen_Mosswood.txt
+2025-11-26 00:31:30,019 - INFO -    ✓ Loaded: Sylvana_Evenstar.txt
+2025-11-26 00:31:30,019 - INFO -    ✓ Loaded: Stonefolk.txt
+2025-11-26 00:31:30,020 - INFO -    ✓ Loaded: Elros_Half-elf.txt
+2025-11-26 00:31:30,020 - INFO -    ✓ Loaded: Cassian_Steelheart.txt
+2025-11-26 00:31:30,020 - INFO -    ✓ Loaded: Nazgûl.txt
+2025-11-26 00:31:30,020 - INFO -    ✓ Loaded: Sunfolk.txt
+2025-11-26 00:31:30,021 - INFO -    ✓ Loaded: The_White_City.txt
+2025-11-26 00:31:30,021 - INFO -    ✓ Loaded: The_South-kingdom.txt
+2025-11-26 00:31:30,021 - INFO -    ✓ Loaded: Horse-plains.txt
+2025-11-26 00:31:30,021 - INFO -    ✓ Loaded: Ringwraiths.txt
+2025-11-26 00:31:30,022 - INFO -    ✓ Loaded: Soul-band.txt
+2025-11-26 00:31:30,022 - INFO -    ✓ Loaded: Greenhaven.txt
+2025-11-26 00:31:30,022 - INFO -    ✓ Loaded: Edain.txt
+2025-11-26 00:31:30,022 - INFO -    ✓ Loaded: Malachi_Whitehand.txt
+2025-11-26 00:31:30,023 - INFO -    ✓ Loaded: The_Four_Farthings.txt
+2025-11-26 00:31:30,023 - INFO -    ✓ Loaded: Faramirion.txt
+2025-11-26 00:31:30,023 - INFO -    ✓ Loaded: Roderick_Greenhand.txt
+2025-11-26 00:31:30,023 - INFO -    ✓ Loaded: Sméagol_the_Wretched.txt
+2025-11-26 00:31:30,024 - INFO -    ✓ Loaded: Samwise_Gardner.txt
+2025-11-26 00:31:30,024 - INFO -    ✓ Loaded: Altariel_of_Lorien.txt
+2025-11-26 00:31:30,024 - INFO -    ✓ Loaded: The_Black_Land.txt
+2025-11-26 00:31:30,024 - INFO -    ✓ Loaded: Star-gems.txt
+2025-11-26 00:31:30,024 - INFO -    ✓ Loaded: Andúril.txt
+2025-11-26 00:31:30,029 - INFO -    ✓ Loaded: Flame_of_the_West.txt
+2025-11-26 00:31:30,029 - INFO -    ✓ Loaded: Thranduilion.txt
+2025-11-26 00:31:30,029 - INFO -    ✓ Loaded: Morgoth's_Heir.txt
+2025-11-26 00:31:30,030 - INFO -    ✓ Loaded: Aelar_Swiftarrow.txt
+2025-11-26 00:31:30,030 - INFO -    ✓ Loaded: Curunir_the_White.txt
+2025-11-26 00:31:30,030 - INFO -    ✓ Loaded: White_Spire.txt
+2025-11-26 00:31:30,030 - INFO -    ✓ Loaded: The_Golden_Wood.txt
+2025-11-26 00:31:30,031 - INFO -    ✓ Loaded: Balrogs.txt
+2025-11-26 00:31:30,031 - INFO -    ✓ Loaded: Morghul.txt
+2025-11-26 00:31:30,031 - INFO -    ✓ Loaded: Elven_Blade.txt
+2025-11-26 00:31:30,031 - INFO -    ✓ Loaded: Treeherders.txt
+2025-11-26 00:31:30,032 - INFO -    ✓ Loaded: Fire-demons.txt
+2025-11-26 00:31:30,032 - INFO -    ✓ Loaded: The_Horse-lords.txt
+2025-11-26 00:31:30,032 - INFO -    ✓ Loaded: The_Ruling_Ring.txt
+2025-11-26 00:31:30,032 - INFO -    ✓ Loaded: Gloinsson.txt
+2025-11-26 00:31:30,033 - INFO -    ✓ Loaded: Eldrin_Half-Elven.txt
+2025-11-26 00:31:30,033 - INFO -    ✓ Loaded: Thorvald_Stormcrown_II.txt
+2025-11-26 00:31:30,033 - INFO -    ✓ Loaded: Seeing-stonei.txt
+2025-11-26 00:31:30,033 - INFO -    ✓ Loaded: Mithrandir_the_Grey.txt
+2025-11-26 00:31:30,034 - INFO -    ✓ Loaded: Imladris.txt
+2025-11-26 00:31:30,034 - INFO -    ✓ Loaded: The_Holy_Jewels.txt
+2025-11-26 00:31:30,034 - INFO -    ✓ Loaded: Lyra_Silverwood.txt
+2025-11-26 00:31:30,034 - INFO -    ✓ Loaded: Star-metal.txt
+2025-11-26 00:31:30,035 - INFO -    ✓ Loaded: Sunstone_Kingdom.txt
+2025-11-26 00:31:30,035 - INFO -    ✓ Loaded: Borin_Stoneheart.txt
+2025-11-26 00:31:30,035 - INFO -    ✓ Loaded: True-silver.txt
+2025-11-26 00:31:30,035 - INFO -    ✓ Loaded: Grimkin.txt
+2025-11-26 00:31:30,035 - INFO -    ✓ Loaded: Arador_Ven_II.txt
+2025-11-26 00:31:30,036 - INFO -    ✓ Loaded: Glimmer.txt
+2025-11-26 00:31:30,036 - INFO -    ✓ Loaded: Arwen_Undomiel.txt
+2025-11-26 00:31:30,036 - INFO -    ✓ Loaded: Shadowland.txt
+2025-11-26 00:31:30,036 - INFO -    ✓ Loaded: Khazad.txt
+2025-11-26 00:31:30,037 - INFO -    ✓ Loaded: Pippin_Tookland.txt
+2025-11-26 00:31:30,037 - INFO -    ✓ Loaded: Lothlórien.txt
+2025-11-26 00:31:30,037 - INFO -    ✓ Loaded: Julian_Riverbend.txt
+2025-11-26 00:31:30,038 - INFO - 📊 Retrieved: 71 documents
+2025-11-26 00:31:30,038 - INFO - 📄 Changed/New document: Flame_of_the_West.txt
+2025-11-26 00:31:30,038 - INFO - 🔄 Processing 1 changed documents
+2025-11-26 00:31:30,038 - INFO -    📄 Flame_of_the_West.txt: 6 → 6 valid chunks
+2025-11-26 00:31:30,038 - INFO - 🧮 Generating embeddings for new chunks...
+2025-11-26 00:31:32,451 - INFO - ✅ Generated 6 embeddings
+2025-11-26 00:31:32,451 - INFO - 🗑️  Removed 6 old chunks
+2025-11-26 00:31:32,451 - INFO - 🏗️  Rebuilding FAISS index...
+2025-11-26 00:31:32,510 - INFO - 💾 Saved FAISS index with 636 total chunks
+2025-11-26 00:31:32,540 - INFO - 
+🧪 Testing search functionality:
+2025-11-26 00:31:32,540 - INFO - 
+🔍 Query: Who was born in Eldamar?
+2025-11-26 00:31:32,676 - INFO -    1. Altariel_of_Lorien.txt (similarity: 0.478)
+2025-11-26 00:31:32,676 - INFO -       Altariel of Lorien was born in Eldamar in the year 1362 of the Years of the Trees. She was the fourt...
+2025-11-26 00:31:32,676 - INFO -    2. Lyra_Silverwood.txt (similarity: 0.450)
+2025-11-26 00:31:32,676 - INFO -       Lyra Silverwood was born in Eldamar in the year 1362 of the Light Years. She was the fourth child of...
+2025-11-26 00:31:32,676 - INFO - 
+🔍 Query: What is most important era?
+2025-11-26 00:31:32,779 - INFO -    1. Horse-plains.txt (similarity: 0.378)
+2025-11-26 00:31:32,779 - INFO -       In the late 19th century of The Bronze Era, one such population of NorthSunfolk, dwelling in the eav...
+2025-11-26 00:31:32,779 - INFO -    2. Morghul.txt (similarity: 0.375)
+2025-11-26 00:31:32,779 - INFO -       Culture
+Maia of The Void (initially of Aulë)
+Media portrayal
+Actor
+Sala Baker (The Story film trilog...
+2025-11-26 00:31:32,779 - INFO - 
+🔍 Query: Who create the ring?
+2025-11-26 00:31:32,899 - INFO -    1. The_Ruling_Ring.txt (similarity: 0.606)
+2025-11-26 00:31:32,899 - INFO -       The The Ruling Ring, also known as the Ruling Ring, Master Ring, Ring of Power, and Isildur's Bane, ...
+2025-11-26 00:31:32,899 - INFO -    2. Soul-band.txt (similarity: 0.579)
+2025-11-26 00:31:32,899 - INFO -       The Soul-band, also known as the Ruling Ring, Master Ring, Ring of Power, and Forman's Bane, was amo...
+2025-11-26 00:31:32,940 - INFO - 
+============================================================
+2025-11-26 00:31:32,940 - INFO - 📊 UPDATE COMPLETED SUCCESSFULLY
+2025-11-26 00:31:32,940 - INFO - ============================================================
+2025-11-26 00:31:32,940 - INFO - Timestamp: 2025-11-26T00:31:32.934053
+2025-11-26 00:31:32,940 - INFO - Model: BAAI/bge-m3
+2025-11-26 00:31:32,940 - INFO - Total Documents: 71
+2025-11-26 00:31:32,940 - INFO - Changed Documents: 0
+2025-11-26 00:31:32,940 - INFO - Chunks Added: 6
+2025-11-26 00:31:32,940 - INFO - Total Chunks in Index: 636
+2025-11-26 00:31:32,940 - INFO -   Execution Time: 8.68s
+2025-11-26 00:31:32,940 - INFO -   Vector Store: FAISS
+2025-11-26 00:31:32,940 - INFO - ============================================================
+2025-11-26 00:31:56,797 - INFO - 🚀 Starting Knowledge Base Update Process
+2025-11-26 00:31:56,798 - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-11-26 00:32:03,178 - INFO - ✅ Loaded existing FAISS index and metadata
+2025-11-26 00:32:03,178 - INFO - 🔍 Scanning for documents...
+2025-11-26 00:32:03,179 - INFO -    ✓ Loaded: Khazad-dûm.txt
+2025-11-26 00:32:03,179 - INFO -    ✓ Loaded: Valley_Haven.txt
+2025-11-26 00:32:03,179 - INFO -    ✓ Loaded: Orin_Greybeard.txt
+2025-11-26 00:32:03,180 - INFO -    ✓ Loaded: Shepherds_of_the_Forest.txt
+2025-11-26 00:32:03,180 - INFO -    ✓ Loaded: Bilbo_Underhill.txt
+2025-11-26 00:32:03,180 - INFO -    ✓ Loaded: Slink.txt
+2025-11-26 00:32:03,180 - INFO -    ✓ Loaded: Merry_Brockhouse.txt
+2025-11-26 00:32:03,181 - INFO -    ✓ Loaded: Palantíri.txt
+2025-11-26 00:32:03,181 - INFO -    ✓ Loaded: Eldar.txt
+2025-11-26 00:32:03,181 - INFO -    ✓ Loaded: Benedict_Hilltop.txt
+2025-11-26 00:32:03,181 - INFO -    ✓ Loaded: Halflings.txt
+2025-11-26 00:32:03,181 - INFO -    ✓ Loaded: Uruk-hai.txt
+2025-11-26 00:32:03,182 - INFO -    ✓ Loaded: Kaelen_Mosswood.txt
+2025-11-26 00:32:03,182 - INFO -    ✓ Loaded: Sylvana_Evenstar.txt
+2025-11-26 00:32:03,182 - INFO -    ✓ Loaded: Stonefolk.txt
+2025-11-26 00:32:03,182 - INFO -    ✓ Loaded: Elros_Half-elf.txt
+2025-11-26 00:32:03,182 - INFO -    ✓ Loaded: Cassian_Steelheart.txt
+2025-11-26 00:32:03,183 - INFO -    ✓ Loaded: Nazgûl.txt
+2025-11-26 00:32:03,183 - INFO -    ✓ Loaded: Sunfolk.txt
+2025-11-26 00:32:03,183 - INFO -    ✓ Loaded: The_White_City.txt
+2025-11-26 00:32:03,183 - INFO -    ✓ Loaded: The_South-kingdom.txt
+2025-11-26 00:32:03,183 - INFO -    ✓ Loaded: Horse-plains.txt
+2025-11-26 00:32:03,184 - INFO -    ✓ Loaded: Ringwraiths.txt
+2025-11-26 00:32:03,184 - INFO -    ✓ Loaded: Soul-band.txt
+2025-11-26 00:32:03,184 - INFO -    ✓ Loaded: Greenhaven.txt
+2025-11-26 00:32:03,184 - INFO -    ✓ Loaded: Edain.txt
+2025-11-26 00:32:03,184 - INFO -    ✓ Loaded: Malachi_Whitehand.txt
+2025-11-26 00:32:03,185 - INFO -    ✓ Loaded: The_Four_Farthings.txt
+2025-11-26 00:32:03,185 - INFO -    ✓ Loaded: Faramirion.txt
+2025-11-26 00:32:03,185 - INFO -    ✓ Loaded: Roderick_Greenhand.txt
+2025-11-26 00:32:03,185 - INFO -    ✓ Loaded: Sméagol_the_Wretched.txt
+2025-11-26 00:32:03,185 - INFO -    ✓ Loaded: Samwise_Gardner.txt
+2025-11-26 00:32:03,186 - INFO -    ✓ Loaded: Altariel_of_Lorien.txt
+2025-11-26 00:32:03,186 - INFO -    ✓ Loaded: The_Black_Land.txt
+2025-11-26 00:32:03,186 - INFO -    ✓ Loaded: Star-gems.txt
+2025-11-26 00:32:03,186 - INFO -    ✓ Loaded: Andúril.txt
+2025-11-26 00:32:03,186 - INFO -    ✓ Loaded: Flame_of_the_West.txt
+2025-11-26 00:32:03,187 - INFO -    ✓ Loaded: Thranduilion.txt
+2025-11-26 00:32:03,187 - INFO -    ✓ Loaded: Morgoth's_Heir.txt
+2025-11-26 00:32:03,187 - INFO -    ✓ Loaded: Aelar_Swiftarrow.txt
+2025-11-26 00:32:03,187 - INFO -    ✓ Loaded: Curunir_the_White.txt
+2025-11-26 00:32:03,187 - INFO -    ✓ Loaded: White_Spire.txt
+2025-11-26 00:32:03,191 - INFO -    ✓ Loaded: The_Golden_Wood.txt
+2025-11-26 00:32:03,192 - INFO -    ✓ Loaded: Balrogs.txt
+2025-11-26 00:32:03,192 - INFO -    ✓ Loaded: Morghul.txt
+2025-11-26 00:32:03,192 - INFO -    ✓ Loaded: Elven_Blade.txt
+2025-11-26 00:32:03,192 - INFO -    ✓ Loaded: Treeherders.txt
+2025-11-26 00:32:03,192 - INFO -    ✓ Loaded: Fire-demons.txt
+2025-11-26 00:32:03,193 - INFO -    ✓ Loaded: The_Horse-lords.txt
+2025-11-26 00:32:03,193 - INFO -    ✓ Loaded: The_Ruling_Ring.txt
+2025-11-26 00:32:03,193 - INFO -    ✓ Loaded: Gloinsson.txt
+2025-11-26 00:32:03,193 - INFO -    ✓ Loaded: Eldrin_Half-Elven.txt
+2025-11-26 00:32:03,193 - INFO -    ✓ Loaded: Thorvald_Stormcrown_II.txt
+2025-11-26 00:32:03,194 - INFO -    ✓ Loaded: Seeing-stonei.txt
+2025-11-26 00:32:03,194 - INFO -    ✓ Loaded: Mithrandir_the_Grey.txt
+2025-11-26 00:32:03,194 - INFO -    ✓ Loaded: Imladris.txt
+2025-11-26 00:32:03,194 - INFO -    ✓ Loaded: The_Holy_Jewels.txt
+2025-11-26 00:32:03,194 - INFO -    ✓ Loaded: Lyra_Silverwood.txt
+2025-11-26 00:32:03,194 - INFO -    ✓ Loaded: Star-metal.txt
+2025-11-26 00:32:03,194 - INFO -    ✓ Loaded: Sunstone_Kingdom.txt
+2025-11-26 00:32:03,195 - INFO -    ✓ Loaded: Borin_Stoneheart.txt
+2025-11-26 00:32:03,195 - INFO -    ✓ Loaded: True-silver.txt
+2025-11-26 00:32:03,195 - INFO -    ✓ Loaded: Grimkin.txt
+2025-11-26 00:32:03,195 - INFO -    ✓ Loaded: Arador_Ven_II.txt
+2025-11-26 00:32:03,195 - INFO -    ✓ Loaded: Glimmer.txt
+2025-11-26 00:32:03,195 - INFO -    ✓ Loaded: Arwen_Undomiel.txt
+2025-11-26 00:32:03,195 - INFO -    ✓ Loaded: Shadowland.txt
+2025-11-26 00:32:03,196 - INFO -    ✓ Loaded: Khazad.txt
+2025-11-26 00:32:03,196 - INFO -    ✓ Loaded: Pippin_Tookland.txt
+2025-11-26 00:32:03,196 - INFO -    ✓ Loaded: Lothlórien.txt
+2025-11-26 00:32:03,196 - INFO -    ✓ Loaded: Julian_Riverbend.txt
+2025-11-26 00:32:03,196 - INFO - 📊 Retrieved: 71 documents
+2025-11-26 00:32:03,197 - INFO - 📄 Changed/New document: Flame_of_the_West.txt
+2025-11-26 00:32:03,197 - INFO - 🔄 Processing 1 changed documents
+2025-11-26 00:32:03,197 - INFO -    📄 Flame_of_the_West.txt: 1 → 1 valid chunks
+2025-11-26 00:32:03,197 - INFO - 🧮 Generating embeddings for new chunks...
+2025-11-26 00:32:03,415 - INFO - ✅ Generated 1 embeddings
+2025-11-26 00:32:03,415 - INFO - 🗑️  Removed 6 old chunks
+2025-11-26 00:32:03,415 - INFO - 🏗️  Rebuilding FAISS index...
+2025-11-26 00:32:03,472 - INFO - 💾 Saved FAISS index with 631 total chunks
+2025-11-26 00:32:03,499 - INFO - 
+🧪 Testing search functionality:
+2025-11-26 00:32:03,500 - INFO - 
+🔍 Query: Who was born in Eldamar?
+2025-11-26 00:32:03,637 - INFO -    1. Altariel_of_Lorien.txt (similarity: 0.478)
+2025-11-26 00:32:03,637 - INFO -       Altariel of Lorien was born in Eldamar in the year 1362 of the Years of the Trees. She was the fourt...
+2025-11-26 00:32:03,637 - INFO -    2. Lyra_Silverwood.txt (similarity: 0.450)
+2025-11-26 00:32:03,637 - INFO -       Lyra Silverwood was born in Eldamar in the year 1362 of the Light Years. She was the fourth child of...
+2025-11-26 00:32:03,637 - INFO - 
+🔍 Query: What is most important era?
+2025-11-26 00:32:03,818 - INFO -    1. Horse-plains.txt (similarity: 0.378)
+2025-11-26 00:32:03,818 - INFO -       In the late 19th century of The Bronze Era, one such population of NorthSunfolk, dwelling in the eav...
+2025-11-26 00:32:03,818 - INFO -    2. Morghul.txt (similarity: 0.375)
+2025-11-26 00:32:03,818 - INFO -       Culture
+Maia of The Void (initially of Aulë)
+Media portrayal
+Actor
+Sala Baker (The Story film trilog...
+2025-11-26 00:32:03,818 - INFO - 
+🔍 Query: Who create the ring?
+2025-11-26 00:32:03,954 - INFO -    1. The_Ruling_Ring.txt (similarity: 0.606)
+2025-11-26 00:32:03,954 - INFO -       The The Ruling Ring, also known as the Ruling Ring, Master Ring, Ring of Power, and Isildur's Bane, ...
+2025-11-26 00:32:03,954 - INFO -    2. Soul-band.txt (similarity: 0.579)
+2025-11-26 00:32:03,954 - INFO -       The Soul-band, also known as the Ruling Ring, Master Ring, Ring of Power, and Forman's Bane, was amo...
+2025-11-26 00:32:03,992 - INFO - 
+============================================================
+2025-11-26 00:32:03,993 - INFO - 📊 UPDATE COMPLETED SUCCESSFULLY
+2025-11-26 00:32:03,993 - INFO - ============================================================
+2025-11-26 00:32:03,993 - INFO - Timestamp: 2025-11-26T00:32:03.986498
+2025-11-26 00:32:03,993 - INFO - Model: BAAI/bge-m3
+2025-11-26 00:32:03,993 - INFO - Total Documents: 71
+2025-11-26 00:32:03,993 - INFO - Changed Documents: 0
+2025-11-26 00:32:03,993 - INFO - Chunks Added: 1
+2025-11-26 00:32:03,993 - INFO - Total Chunks in Index: 631
+2025-11-26 00:32:03,993 - INFO -   Execution Time: 7.16s
+2025-11-26 00:32:03,993 - INFO -   Vector Store: FAISS
+2025-11-26 00:32:03,993 - INFO - ============================================================

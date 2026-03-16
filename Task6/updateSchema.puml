@@ -1,0 +1,48 @@
+@startuml
+skinparam componentStyle uml2
+
+title Система автоматического обновления базы знаний
+
+package "Источники данных" {
+  component "Локальные файлы\n*.txt, *.md" as LocalFiles
+  component "Версионность" as Versioning
+}
+
+package "Обработка" {
+  component "Сканирование\nи обнаружение" as Scanner
+  component "Чанкование\nтекста" as Chunker
+  component "Векторизация\nBAAI/bge-m3" as Vectorizer
+  component "Индексация\nFAISS" as Indexer
+}
+
+package "Хранилище" {
+  database "Векторный индекс\nFAISS" as VectorStore
+  database "Метаданные\nJSON/Pickle" as Metadata
+}
+
+package "Управление" {
+  component "Планировщик\nCron" as Scheduler
+  component "Логирование\nи мониторинг" as Logger
+}
+
+LocalFiles --> Scanner : Файлы
+Versioning --> Scanner : Изменения
+
+Scanner --> Chunker : Новый контент
+Chunker --> Vectorizer : Текстовые сегменты
+Vectorizer --> Indexer : Эмбеддинги
+Indexer --> VectorStore : Векторный индекс
+Indexer --> Metadata : Информация о чанках
+
+Scheduler --> Scanner : Запуск процесса
+Scanner --> Logger : Статус выполнения
+Vectorizer --> Logger : Метрики
+
+note right of Scheduler
+  Конфигурация:
+  - Ежедневно в 6:00
+  - Автоматический перезапуск
+  - Уведомления об ошибках
+end note
+
+@enduml
