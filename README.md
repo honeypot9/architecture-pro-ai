@@ -5,3 +5,11 @@
 # Task2
 
 [link](./Task2/README.md)
+
+# Task3
+
+[link](./Task3/README.md)
+
+# Task4
+
+[link](./Task4/README.md)
