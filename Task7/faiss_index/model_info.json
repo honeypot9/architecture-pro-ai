@@ -1,6 +1,0 @@
-{
-  "name": "BAAI/bge-m3",
-  "repository": "https://huggingface.co/BAAI/bge-m3",
-  "embedding_size": 1024,
-  "normalized": true
-}
