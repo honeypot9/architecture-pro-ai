@@ -1,0 +1,11 @@
+question,expected,has_answer,answer_length,num_sources,is_correct,response_preview,timestamp
+Who is Borin Stoneheart?,TA 2879,True,371,3,True,"Borin Stoneheart is a Dwarf born in TA 2879, the son of Glóin and a nephew of Óin. He is a descendan...",2025-11-27T00:24:10.023044
+What weapons did Borin Stoneheart use?,broad-bladed axe,True,41,3,True,Borin Stoneheart used a broad-bladed axe....,2025-11-27T00:24:12.491010
+How old was Borin when he departed to The Undying Lands?,at least 262,True,23,3,True,At least 262 years old....,2025-11-27T00:24:15.070630
+When was Borin Stoneheart born?,TA 2879,True,37,3,True,Borin Stoneheart was born in TA 2879....,2025-11-27T00:24:17.270051
+Who is Aelar Swiftarrow?,Eldar of Darkwood Elf,True,406,3,True,Aelar Swiftarrow is an Eldar of Darkwood Elf who joined The Company of the Ring in The Bronze Era. H...,2025-11-27T00:24:20.799948
+What was Borin's role in the Shadow War?,Eldar in The Shadow War,True,204,3,True,Borin Stoneheart fought alongside Eldar in The Shadow War against Morghul at the end of The Bronze E...,2025-11-27T00:24:23.757909
+Who is Lyra Silverwood?,Ñoldorin Lady,True,517,3,True,Lyra Silverwood is a Ñoldorin Lady from the woods of Lothlórien. She was born in the Undying Lands a...,2025-11-27T00:24:27.130732
+How we can win in this history?,NO_ANSWER,True,88,3,True,The provided context does not contain information on how to win in any specific history....,2025-11-27T00:24:29.940266
+How did Balrogs get the name Lockbearer?,NO_ANSWER,True,191,3,False,"The given question lacks context related to Balrogs and the name ""Lockbearer."" The provided document...",2025-11-27T00:24:32.158431
+What is most important event in history?,NO_ANSWER,True,110,3,False,The provided context does not contain sufficient information to determine the most important event i...,2025-11-27T00:24:34.806962
