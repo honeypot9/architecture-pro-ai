@@ -20,4 +20,8 @@
 
 # Task6
 
-[link](./Task6/README.md)
+[link](./Task6/README.md)`
+
+# Task7
+
+[link](./Task7/README.md)
