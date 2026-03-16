@@ -1,0 +1,26 @@
+{
+  "model": {
+    "name": "BAAI/bge-m3",
+    "repository": "https://huggingface.co/BAAI/bge-m3",
+    "embedding_size": 1024
+  },
+  "knowledge_base": {
+    "path": "../Task2/knowledge_base",
+    "total_documents": 71,
+    "total_chunks": 618
+  },
+  "processing": {
+    "time_seconds": 361.67567133903503,
+    "time_minutes": 6.027927855650584,
+    "chunks_per_second": 1.7087132173197417
+  },
+  "vectorstore": {
+    "type": "FAISS",
+    "persist_directory": "./faiss_index",
+    "index_type": "IndexFlatIP"
+  },
+  "environment": {
+    "langchain_version": "0.1.0+",
+    "embedding_backend": "sentence-transformers"
+  }
+}
